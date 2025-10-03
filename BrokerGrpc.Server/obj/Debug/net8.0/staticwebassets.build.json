@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kGjzJgLG18rsY77JeyKzUQ+YACFtoQRGOijUHl4qwjI=",
+  "Source": "BrokerGrpc.Server",
+  "BasePath": "_content/BrokerGrpc.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
