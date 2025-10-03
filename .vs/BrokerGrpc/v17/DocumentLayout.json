@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program paths\\C#\\BrokerGrpc2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|solutionrelative:brokergrpc.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.server\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|solutionrelative:brokergrpc.server\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.server\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|solutionrelative:brokergrpc.server\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.sender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|solutionrelative:brokergrpc.sender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.sender\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|solutionrelative:brokergrpc.sender\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.sender\\brokergrpc.sender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{025B2A0D-EAB4-462E-BF15-6755BF11E07B}|BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj|solutionrelative:brokergrpc.sender\\brokergrpc.sender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.receiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|solutionrelative:brokergrpc.receiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.receiver\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|solutionrelative:brokergrpc.receiver\\protos\\broker.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.receiver\\brokergrpc.receiver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5441146-5883-488D-A1EC-150D14E6AAF6}|BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj|solutionrelative:brokergrpc.receiver\\brokergrpc.receiver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.server\\brokergrpc.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|solutionrelative:brokergrpc.server\\brokergrpc.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|d:\\program paths\\c#\\brokergrpc2\\brokergrpc.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02DED1B9-B4C3-4074-B612-069CC13D6A0C}|BrokerGrpc.Server\\BrokerGrpc.Server.csproj|solutionrelative:brokergrpc.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\Program.cs",
+              "RelativeDocumentMoniker": "BrokerGrpc.Sender\\Program.cs",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\Program.cs",
+              "RelativeToolTip": "BrokerGrpc.Sender\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:37:05.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "broker.proto",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\Protos\\broker.proto",
+              "RelativeDocumentMoniker": "BrokerGrpc.Server\\Protos\\broker.proto",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\Protos\\broker.proto",
+              "RelativeToolTip": "BrokerGrpc.Server\\Protos\\broker.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-09-23T22:32:45.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrokerService.cs",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\BrokerService.cs",
+              "RelativeDocumentMoniker": "BrokerGrpc.Server\\BrokerService.cs",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\BrokerService.cs",
+              "RelativeToolTip": "BrokerGrpc.Server\\BrokerService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:34:24.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\Program.cs",
+              "RelativeDocumentMoniker": "BrokerGrpc.Server\\Program.cs",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\Program.cs",
+              "RelativeToolTip": "BrokerGrpc.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:33:56.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\Program.cs",
+              "RelativeDocumentMoniker": "BrokerGrpc.Receiver\\Program.cs",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\Program.cs",
+              "RelativeToolTip": "BrokerGrpc.Receiver\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:36:08.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "broker.proto",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\Protos\\broker.proto",
+              "RelativeDocumentMoniker": "BrokerGrpc.Sender\\Protos\\broker.proto",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\Protos\\broker.proto",
+              "RelativeToolTip": "BrokerGrpc.Sender\\Protos\\broker.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-09-23T22:36:36.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BrokerGrpc.Sender.csproj",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj",
+              "RelativeDocumentMoniker": "BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj",
+              "RelativeToolTip": "BrokerGrpc.Sender\\BrokerGrpc.Sender.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-23T22:36:30.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "broker.proto",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\Protos\\broker.proto",
+              "RelativeDocumentMoniker": "BrokerGrpc.Receiver\\Protos\\broker.proto",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\Protos\\broker.proto",
+              "RelativeToolTip": "BrokerGrpc.Receiver\\Protos\\broker.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-09-23T22:35:23.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BrokerGrpc.Receiver.csproj",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj",
+              "RelativeDocumentMoniker": "BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj",
+              "RelativeToolTip": "BrokerGrpc.Receiver\\BrokerGrpc.Receiver.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-23T22:35:15.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BrokerGrpc.Server.csproj",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\BrokerGrpc.Server.csproj",
+              "RelativeDocumentMoniker": "BrokerGrpc.Server\\BrokerGrpc.Server.csproj",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\BrokerGrpc.Server.csproj",
+              "RelativeToolTip": "BrokerGrpc.Server\\BrokerGrpc.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-23T22:33:46.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "BrokerGrpc.Server\\appsettings.json",
+              "ToolTip": "D:\\Program paths\\C#\\BrokerGrpc2\\BrokerGrpc.Server\\appsettings.json",
+              "RelativeToolTip": "BrokerGrpc.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-01T20:14:44.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
