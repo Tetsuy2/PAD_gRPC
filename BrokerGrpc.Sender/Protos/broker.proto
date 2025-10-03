@@ -1,0 +1,27 @@
+syntax = "proto3";
+package broker;
+option csharp_namespace = "Proto";
+
+message PublishRequest {
+  string type = 1;
+  string subject = 2;
+  string payload = 3;
+  string id = 4;
+  int64 timestampUnix = 5;
+}
+message Ack { bool ok = 1; string error = 2; }
+
+message Envelope {
+  string type = 1;
+  string subject = 2;
+  string payload = 3;
+  string id = 4;
+  int64 timestampUnix = 5;
+}
+
+message SubscribeRequest { string subject = 1; }
+
+service Broker {
+  rpc Publish   (PublishRequest)   returns (Ack);
+  rpc Subscribe (SubscribeRequest) returns (stream Envelope);
+}
