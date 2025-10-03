@@ -22,7 +22,7 @@ var type = Arg(args, "--type", "Test");
 var subject = Arg(args, "--subject", "orders.new");
 var payload = Arg(args, "--payload", "{\"hello\":\"world\"}");
 
-// HTTP/2 without TLS (dev)
+// Allow HTTP/2 without TLS (development)
 AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
 using var chan = GrpcChannel.ForAddress(brokerAddr);

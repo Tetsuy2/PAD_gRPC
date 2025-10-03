@@ -17,8 +17,8 @@ static void Show()
 {
     Console.WriteLine("""
 Usage:
-  dotnet run --project .\BrokerGrpc.Receiver\BrokerGrpc.Receiver.csproj -- ^
-    --broker http://127.0.0.1:7001 --subject S ^
+  dotnet run --project .\BrokerGrpc.Receiver\BrokerGrpc.Receiver.csproj -- \
+    --broker http://127.0.0.1:7001 --subject S \
     [--inbox D:\path\to\inbox] [--save-xml] [--xsd D:\path\to\envelope.xsd]
 
 Notes:
@@ -54,8 +54,7 @@ static bool TryValidate(string xml, string xsdPath, out string? error)
     string? validationError = null;
 
     var settings = new XmlReaderSettings { ValidationType = ValidationType.Schema };
-    // Bind schema to the same namespace used by the XML
-    settings.Schemas.Add(EnvelopeNs, xsdPath);
+    settings.Schemas.Add(EnvelopeNs, xsdPath); // bind schema to same namespace
     settings.ValidationEventHandler += (_, a) =>
     {
         if (validationError is null) validationError = a.Message;
@@ -65,7 +64,7 @@ static bool TryValidate(string xml, string xsdPath, out string? error)
     using var xr = XmlReader.Create(sr, settings);
     try
     {
-        while (xr.Read()) { /* trigger validation */ }
+        while (xr.Read()) { /* advance to trigger validation */ }
     }
     catch (XmlException xe)
     {
@@ -88,7 +87,7 @@ var xsdPath = Arg(args, "--xsd", "");
 Directory.CreateDirectory(inboxDir);
 var jsonlPath = Path.Combine(inboxDir, "inbox.jsonl");
 
-// HTTP/2 without TLS (dev)
+// allow HTTP/2 without TLS (dev)
 AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
 using var ch = GrpcChannel.ForAddress(brokerAddr);
@@ -106,10 +105,8 @@ try
     {
         var env = call.ResponseStream.Current;
 
-        // console log
         Console.WriteLine($"[gRPC Receiver] {env.Type}/{env.Subject} -> {env.Payload}");
 
-        // append JSON line
         var json = JsonSerializer.Serialize(new
         {
             env.Type,
@@ -120,7 +117,6 @@ try
         });
         await File.AppendAllTextAsync(jsonlPath, json + Environment.NewLine);
 
-        // optional XML save + validate
         if (saveXml)
         {
             var xml = EnvelopeToXml(env);
@@ -139,4 +135,4 @@ try
         }
     }
 }
-catch (TaskCanceledException) {  }
+catch (TaskCanceledException) { /* normal on shutdown */ }
