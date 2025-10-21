@@ -1,2 +1,0 @@
-obj\Debug\net8.0\Protos/Broker.cs \
-obj\Debug\net8.0\Protos/BrokerGrpc.cs: Protos/broker.proto
