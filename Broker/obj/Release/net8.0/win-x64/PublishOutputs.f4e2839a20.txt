@@ -1,0 +1,7 @@
+D:\Program paths\C#\AgentGrpc\appsettings.Development.json
+D:\Program paths\C#\AgentGrpc\appsettings.json
+D:\Program paths\C#\AgentGrpc\Broker.pdb
+D:\Program paths\C#\AgentGrpc\aspnetcorev2_inprocess.dll
+D:\Program paths\C#\AgentGrpc\grpc_csharp_ext.x64.dll
+D:\Program paths\C#\AgentGrpc\Common.pdb
+D:\Program paths\C#\AgentGrpc\Broker.exe

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ektKIIorjDBZedbksjkFfukmZg9SQVRdrmhlAumG5lo=",
+  "Source": "Broker",
+  "BasePath": "_content/Broker",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
