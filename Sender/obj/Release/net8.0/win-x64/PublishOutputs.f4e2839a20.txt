@@ -1,0 +1,4 @@
+D:\Program paths\C#\AgentGrpc\Sender.pdb
+D:\Program paths\C#\AgentGrpc\grpc_csharp_ext.x64.dll
+D:\Program paths\C#\AgentGrpc\Common.pdb
+D:\Program paths\C#\AgentGrpc\Sender.exe

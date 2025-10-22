@@ -1,0 +1,4 @@
+D:\Program paths\C#\AgentGrpc\Sender\bin\Release\net8.0\win-x64\publish\Sender.pdb
+D:\Program paths\C#\AgentGrpc\Sender\bin\Release\net8.0\win-x64\publish\grpc_csharp_ext.x64.dll
+D:\Program paths\C#\AgentGrpc\Sender\bin\Release\net8.0\win-x64\publish\Common.pdb
+D:\Program paths\C#\AgentGrpc\Sender\bin\Release\net8.0\win-x64\publish\Sender.exe
