@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/l1p4Zdy0X484jy+rN5gz90Dga+URXmBO86/TKZ0bqs=",
+  "Source": "Receiver",
+  "BasePath": "_content/Receiver",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

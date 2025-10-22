@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Publish.cs \
+obj\Debug\net8.0\Protos/PublishGrpc.cs: Protos/publish.proto

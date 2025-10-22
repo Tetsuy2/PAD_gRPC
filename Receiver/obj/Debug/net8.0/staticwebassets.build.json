@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gkbmwW5+RYohrVfSm/zV3k6VN6e3+bW6ZlGcAI3EDx8=",
+  "Source": "Receiver",
+  "BasePath": "_content/Receiver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,24 @@
+﻿syntax = "proto3";
+option csharp_namespace = "GrpcAgent";
+package GrpcAgent;
+
+enum DeliveryMode {
+  Multicast = 0;
+  Unicast   = 1;
+}
+
+service Publisher {
+  rpc PublishMessage (PublishRequest) returns (PublishReply);
+}
+
+message PublishRequest {
+  string topic       = 1;
+  string content     = 2;
+  string contentType = 3; // "application/json" | "application/xml" | ""
+  DeliveryMode mode  = 4; // Multicast or Unicast
+}
+
+message PublishReply {
+  bool isSuccess = 1;
+  string error   = 2;
+}
